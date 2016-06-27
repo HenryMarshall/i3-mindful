@@ -1,0 +1,25 @@
+{
+  "name": "i3-mindful",
+  "version": "1.0.0",
+  "description": "Mindfulness prompt integrated into i3",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hbaughman/i3-mindful.git"
+  },
+  "keywords": [
+    "i3",
+    "mindful",
+    "mindfulness",
+    "productivity"
+  ],
+  "author": "Henry Baughman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hbaughman/i3-mindful/issues"
+  },
+  "homepage": "https://github.com/hbaughman/i3-mindful#readme"
+}
