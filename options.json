@@ -1,0 +1,17 @@
+{
+  "promptInterval": 1800000,
+  "idleReset": 300000,
+  "loopInterval": 30000,
+
+  "questions": {
+    "doingWhat": {
+      "description": "What are you doing right now?\n> "
+    },
+    "whyThat": {
+      "description": "Why that?\n> "
+    },
+    "whatNext": {
+      "description": "What actionable thing will you do next\n> "
+    }
+  }
+}
