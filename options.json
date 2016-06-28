@@ -1,17 +1,21 @@
 {
   "promptInterval": 1800000,
   "idleReset": 300000,
-  "loopInterval": 30000,
+  "loopInterval": 10000,
 
-  "questions": {
-    "doingWhat": {
-      "description": "What are you doing right now?\n> "
+  "savePath": "mindful.md",
+  "questions": [ 
+    {
+      "name": "doingWhat",
+      "description": "What are you doing right now?"
     },
-    "whyThat": {
-      "description": "Why that?\n> "
+    {
+      "name": "whyThat",
+      "description": "Why that?"
     },
-    "whatNext": {
-      "description": "What actionable thing will you do next\n> "
+    {
+      "name": "doNext",
+      "description": "What actionable thing will you do next?"
     }
-  }
+  ]
 }
