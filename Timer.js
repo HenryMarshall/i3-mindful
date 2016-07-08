@@ -1,5 +1,8 @@
+"use strict";
+
 const getIdleTime = require('./getIdleTime')
 const questionUser = require('./questionUser')
+const hooks = require('./hooks')("i3")
 
 class Timer {
   constructor(options) {
@@ -19,11 +22,14 @@ class Timer {
 
   determineAction() {
     if (this.shouldPrompt()) {
+      hooks.onPrompt()
+      questionUser(callback.bind(this))
+
       function callback() {
         this.startTime = Date.now()
         this.delayedAction()
+        hooks.onWrite()
       }
-      questionUser(callback.bind(this))
     }
     else {
       if (this.isIdle()) {
