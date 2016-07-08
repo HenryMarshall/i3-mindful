@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/hbaughman/i3-mindful#readme",
   "dependencies": {
+    "left-pad": "^1.1.1",
     "prompt": "^1.0.0"
   }
 }

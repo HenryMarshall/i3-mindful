@@ -1,7 +1,7 @@
 {
   "promptInterval": 1800000,
   "idleReset": 300000,
-  "loopInterval": 10000,
+  "loopInterval": 1000,
 
   "savePath": "mindful.md",
   "questions": [ 
